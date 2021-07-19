@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\israe\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\israe\\.nuget\\packages"
+    ]
+  }
+}

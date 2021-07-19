@@ -1,0 +1,12 @@
+C:\Learning\balta-payment\PaymenteContext.Shared\bin\Debug\net5.0\PaymenteContext.Shared.deps.json
+C:\Learning\balta-payment\PaymenteContext.Shared\bin\Debug\net5.0\PaymenteContext.Shared.dll
+C:\Learning\balta-payment\PaymenteContext.Shared\bin\Debug\net5.0\ref\PaymenteContext.Shared.dll
+C:\Learning\balta-payment\PaymenteContext.Shared\bin\Debug\net5.0\PaymenteContext.Shared.pdb
+C:\Learning\balta-payment\PaymenteContext.Shared\obj\Debug\net5.0\PaymenteContext.Shared.csprojAssemblyReference.cache
+C:\Learning\balta-payment\PaymenteContext.Shared\obj\Debug\net5.0\PaymenteContext.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Learning\balta-payment\PaymenteContext.Shared\obj\Debug\net5.0\PaymenteContext.Shared.AssemblyInfoInputs.cache
+C:\Learning\balta-payment\PaymenteContext.Shared\obj\Debug\net5.0\PaymenteContext.Shared.AssemblyInfo.cs
+C:\Learning\balta-payment\PaymenteContext.Shared\obj\Debug\net5.0\PaymenteContext.Shared.csproj.CoreCompileInputs.cache
+C:\Learning\balta-payment\PaymenteContext.Shared\obj\Debug\net5.0\PaymenteContext.Shared.dll
+C:\Learning\balta-payment\PaymenteContext.Shared\obj\Debug\net5.0\ref\PaymenteContext.Shared.dll
+C:\Learning\balta-payment\PaymenteContext.Shared\obj\Debug\net5.0\PaymenteContext.Shared.pdb
