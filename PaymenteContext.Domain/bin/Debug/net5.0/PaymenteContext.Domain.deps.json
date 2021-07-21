@@ -7,14 +7,46 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "PaymenteContext.Domain/1.0.0": {
+        "dependencies": {
+          "PaymenteContext.Shared": "1.0.0",
+          "Flunt": "2.0.4"
+        },
         "runtime": {
           "PaymenteContext.Domain.dll": {}
+        }
+      },
+      "Flunt/2.0.4": {
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {
+            "assemblyVersion": "2.0.4.0",
+            "fileVersion": "2.0.4.0"
+          }
+        }
+      },
+      "PaymenteContext.Shared/1.0.0": {
+        "dependencies": {
+          "Flunt": "2.0.4"
+        },
+        "runtime": {
+          "PaymenteContext.Shared.dll": {}
         }
       }
     }
   },
   "libraries": {
     "PaymenteContext.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Flunt/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0hBUXlsxLH2vsp3KGbRWp4nVqdn6XVuqUm8uW3C2vn8hVIspC1A5YKNQNP9jOGXFZgmKFUa3AUAQRxeWOYlZdg==",
+      "path": "flunt/2.0.4",
+      "hashPath": "flunt.2.0.4.nupkg.sha512"
+    },
+    "PaymenteContext.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -96,3 +96,8 @@ C:\Learning\balta-payment\PaymenteContext.Test\obj\Debug\net5.0\PaymenteContext.
 C:\Learning\balta-payment\PaymenteContext.Test\obj\Debug\net5.0\ref\PaymenteContext.Test.dll
 C:\Learning\balta-payment\PaymenteContext.Test\obj\Debug\net5.0\PaymenteContext.Test.pdb
 C:\Learning\balta-payment\PaymenteContext.Test\obj\Debug\net5.0\PaymenteContext.Test.genruntimeconfig.cache
+C:\Learning\balta-payment\PaymenteContext.Test\bin\Debug\net5.0\PaymenteContext.Domain.dll
+C:\Learning\balta-payment\PaymenteContext.Test\bin\Debug\net5.0\PaymenteContext.Shared.dll
+C:\Learning\balta-payment\PaymenteContext.Test\bin\Debug\net5.0\PaymenteContext.Shared.pdb
+C:\Learning\balta-payment\PaymenteContext.Test\bin\Debug\net5.0\PaymenteContext.Domain.pdb
+c:\Learning\balta-payment\PaymenteContext.Test\bin\Debug\net5.0\Flunt.dll

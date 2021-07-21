@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "iRe8olSCX5oF6w/HOqbf5CRkaQ0zxn0Ya/xDuOX+2IUyLy+ue/EY/8tIn/4+CQWHkbU0IJP3ASyrytsmONwhmg==",
+  "dgSpecHash": "+c9x/X25kdMHYpzp+0T7InJEgu/43q1vmLgNeWzf7iNN9zA34YgoVsZ3ZCL7eOItGDjEkEgC/1lS5ig7tOq9zQ==",
   "success": true,
   "projectFilePath": "C:\\Learning\\balta-payment\\PaymenteContext.Domain\\PaymenteContext.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\israe\\.nuget\\packages\\flunt\\2.0.4\\flunt.2.0.4.nupkg.sha512",
     "C:\\Users\\israe\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": []

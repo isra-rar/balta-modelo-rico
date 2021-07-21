@@ -10,3 +10,6 @@ C:\Learning\balta-payment\PaymenteContext.Domain\obj\Debug\net5.0\PaymenteContex
 C:\Learning\balta-payment\PaymenteContext.Domain\obj\Debug\net5.0\PaymenteContext.Domain.dll
 C:\Learning\balta-payment\PaymenteContext.Domain\obj\Debug\net5.0\ref\PaymenteContext.Domain.dll
 C:\Learning\balta-payment\PaymenteContext.Domain\obj\Debug\net5.0\PaymenteContext.Domain.pdb
+C:\Learning\balta-payment\PaymenteContext.Domain\bin\Debug\net5.0\PaymenteContext.Shared.dll
+C:\Learning\balta-payment\PaymenteContext.Domain\bin\Debug\net5.0\PaymenteContext.Shared.pdb
+C:\Learning\balta-payment\PaymenteContext.Domain\obj\Debug\net5.0\PaymenteContext.Domain.csproj.CopyComplete

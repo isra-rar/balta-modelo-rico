@@ -8,6 +8,15 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
+      "Flunt/2.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
       "Microsoft.CodeCoverage/16.7.1": {
         "type": "package",
         "compile": {
@@ -1634,6 +1643,33 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "PaymenteContext.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "PaymenteContext.Shared": "1.0.0",
+          "flunt": "2.0.4"
+        },
+        "compile": {
+          "bin/placeholder/PaymenteContext.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PaymenteContext.Domain.dll": {}
+        }
+      },
+      "PaymenteContext.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "flunt": "2.0.4"
+        },
+        "compile": {
+          "bin/placeholder/PaymenteContext.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PaymenteContext.Shared.dll": {}
+        }
       }
     }
   },
@@ -1668,6 +1704,19 @@
         "coverlet-icon.png",
         "coverlet.collector.1.3.0.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "Flunt/2.0.4": {
+      "sha512": "0hBUXlsxLH2vsp3KGbRWp4nVqdn6XVuqUm8uW3C2vn8hVIspC1A5YKNQNP9jOGXFZgmKFUa3AUAQRxeWOYlZdg==",
+      "type": "package",
+      "path": "flunt/2.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "flunt.2.0.4.nupkg.sha512",
+        "flunt.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Flunt.dll"
       ]
     },
     "Microsoft.CodeCoverage/16.7.1": {
@@ -5706,6 +5755,16 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "PaymenteContext.Domain/1.0.0": {
+      "type": "project",
+      "path": "../PaymenteContext.Domain/PaymenteContext.Domain.csproj",
+      "msbuildProject": "../PaymenteContext.Domain/PaymenteContext.Domain.csproj"
+    },
+    "PaymenteContext.Shared/1.0.0": {
+      "type": "project",
+      "path": "../PaymenteContext.Shared/PaymenteContext.Shared.csproj",
+      "msbuildProject": "../PaymenteContext.Shared/PaymenteContext.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5713,7 +5772,10 @@
       "MSTest.TestAdapter >= 2.1.1",
       "MSTest.TestFramework >= 2.1.1",
       "Microsoft.NET.Test.Sdk >= 16.7.1",
-      "coverlet.collector >= 1.3.0"
+      "PaymenteContext.Domain >= 1.0.0",
+      "PaymenteContext.Shared >= 1.0.0",
+      "coverlet.collector >= 1.3.0",
+      "flunt >= 2.0.4"
     ]
   },
   "packageFolders": {
@@ -5742,7 +5804,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Learning\\balta-payment\\PaymenteContext.Domain\\PaymenteContext.Domain.csproj": {
+              "projectPath": "C:\\Learning\\balta-payment\\PaymenteContext.Domain\\PaymenteContext.Domain.csproj"
+            },
+            "C:\\Learning\\balta-payment\\PaymenteContext.Shared\\PaymenteContext.Shared.csproj": {
+              "projectPath": "C:\\Learning\\balta-payment\\PaymenteContext.Shared\\PaymenteContext.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5770,6 +5839,10 @@
           "coverlet.collector": {
             "target": "Package",
             "version": "[1.3.0, )"
+          },
+          "flunt": {
+            "target": "Package",
+            "version": "[2.0.4, )"
           }
         },
         "imports": [
